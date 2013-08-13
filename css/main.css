@@ -1,0 +1,92 @@
+body {
+	background-image: url('../img/noise.png');
+	background-repeat: repeat;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+hr {
+	border-top: 1px solid #e3e3e3;
+    border-bottom: 1px solid #fff;
+    height: 1px;
+	width: 100%;
+}
+
+#top-feed{
+	text-align: left;
+}
+
+.jumbotron h2 {
+	color: #efefef;
+	font-size: 2.5em;
+	font-weight: bold;
+	text-align: left;
+}
+
+jumbotron h3 {
+	float: right;
+}
+
+.jumbotron a {
+	color: #fff;
+}
+
+.dark {
+	background-color: #efefef;
+	padding: 10px;
+}
+
+.lite {
+	background-color: #fff;
+	background-image: url('../img/noise.png');
+	background-repeat: repeat;
+}
+
+.lite li {
+	list-style-type: none;
+}
+
+.dark h1 {
+	color: #333;
+	text-align: center;
+}
+
+.lite h1 {
+	color: #111;
+	text-align: center;
+}
+
+.lite h2, h3 {
+	color: #888;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+.event{
+	color: #444;
+	text-align: left;
+}
+.orange {
+	color: #ff9b00;
+}
+
+.span3, .span5, .span6 {
+	padding: 15px;
+}
+
+.span11 {
+	margin-bottom: 20px;
+/* 	padding: 15px; */
+}
+
+.span12 {
+/* 	border-bottom: 3px solid rgba(220, 220, 220, 0.5); */
+	margin-bottom: 15px;
+/* 	padding: 15px; */
+}
+
+@media (max-width: 767px) {
+	.time{
+		color: #444);
+		text-align: center;
+	}
+
+}
