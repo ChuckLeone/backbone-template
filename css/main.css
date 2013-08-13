@@ -15,9 +15,9 @@ hr {
 }
 
 .jumbotron h2 {
-	color: #efefef;
-	font-size: 1em;
-	font-weight: bold;
+	color: #d1d1d1;
+	font-size: 1.2em;
+	font-weight: normal;
 	text-align: left;
 }
 
@@ -42,6 +42,9 @@ jumbotron h3 {
 
 .lite li {
 	list-style-type: none;
+	border-bottom: 1px solid rgb(230, 230, 230);
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 .dark h1 {
@@ -54,10 +57,19 @@ jumbotron h3 {
 	text-align: center;
 }
 
-.lite h2, h3 {
+.lite h2, .lite h3 {
 	color: #888;
-	font-size: 1.2em;
+	font-size: 1.5em;
 	text-align: center;
+	padding-bottom: 10px;
+}
+
+
+h4 {
+	color: #888;
+	font-size: 1.0em;
+	text-align: left;
+	padding-bottom: 15px;
 }
 
 .event{

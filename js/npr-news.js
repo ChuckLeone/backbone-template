@@ -16,12 +16,14 @@ function parseXml(xml){
 	var image = $(xml).find('image').attr('href', image).text();
 	$('#logo').html("<img src=" + image + " />")
 	.css({
-		'float':'right',
-		'margin':'16px',
+		'float':'right'
 		});
 	//Get date
 	var date = $(xml).find("lastBuildDate").text();
-	$('#feed h3').html(date);
+	$('#feed h4').html(date)
+	.css({
+		'float':'left'
+		});;
 	//Populate main feed cell
 	var topTitle = $(xml).find('item').first().find('title').text();
 	var topLink = $(xml).find('item').first().find('link').text();
