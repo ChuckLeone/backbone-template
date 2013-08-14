@@ -42,11 +42,11 @@ function parseXml(xml){
 					var $break = $('<br /><p></p><div class="hr" /></div>');
 					var wrapper = "<li class='single-feed'>";
 					$("#feed-container").append($(wrapper).append($link,$pubDate,$break)); 
-					$link.css({
-						'font-size':'1em',
-						'font-weight':'bold',
-						'line-height':'1'
-						});
+					// $link.css({
+// 						'font-size':'1.5em',
+// 						'font-weight':'bold',
+// 						'line-height':'1'
+// 						});
 					$des.css({
 						'font-size':'0.9em',
 						'color':'gray'

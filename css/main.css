@@ -10,6 +10,17 @@ hr {
 	width: 100%;
 }
 
+button {
+	float: right;
+	background-color: #333;
+	color: #e1e1e1;
+	border-radius: 4px;
+	border: 1px solid #555;
+	padding: 5px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
 #top-feed{
 	text-align: left;
 }
@@ -45,6 +56,11 @@ jumbotron h3 {
 	border-bottom: 1px solid rgb(230, 230, 230);
 	padding-top: 15px;
 	padding-bottom: 15px;
+}
+
+.lite li a{
+	font-size: 1.5em;
+	color: #444;
 }
 
 .dark h1 {

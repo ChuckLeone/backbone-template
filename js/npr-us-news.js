@@ -28,11 +28,11 @@ function parseXml2(xml){
 					var $break = $('<br /><p></p><div class="hr" /></div>');
 					var wrapper = "<li class='single-feed'>";
 					$("#feed-container2").append($(wrapper).append($link,$pubDate,$break)); 
-					$link.css({
-						'font-size':'0.9em',
-						'font-weight':'bold',
-						'line-height':'1'
-						});
+					// $link.css({
+// 						'font-size':'0.9em',
+// 						'font-weight':'bold',
+// 						'line-height':'1'
+// 						});
 					$des.css({
 						'font-size':'0.9em',
 						'color':'gray'
